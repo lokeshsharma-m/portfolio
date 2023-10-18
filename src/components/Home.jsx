@@ -12,8 +12,8 @@ function Home() {
             I'm a front end developer
           </h2>
           <p className="max-w-md py-4">
-            I have no experience in front end development i am still in the
-            learning process.
+            I'm currently learning webdevlopment and i create a some fullscale
+            websites.
           </p>
           <div>
             <Link
