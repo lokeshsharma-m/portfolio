@@ -12,7 +12,7 @@ function SocialMedia() {
           <FaLinkedin size={20} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/lokesh-sharma-m/",
       style: "rounded-tr-md",
     },
     {

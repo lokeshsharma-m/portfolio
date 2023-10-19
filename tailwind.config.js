@@ -8,7 +8,19 @@ export default {
     fontFamily: {
       signature: 'Great Vibes'
     },
-    extend: {},
+
+    extend: {
+      colors: {
+        'dpurple': '#1D0034',
+        'lpurple': '#4D014E'
+      },
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.35)",
+          "0 0px 65px rgba(255, 255,255, 0.2)"
+        ]
+      }
+    },
   },
   plugins: [],
 }

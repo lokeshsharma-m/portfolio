@@ -23,19 +23,24 @@ function NavBar() {
   ];
 
   return (
-    <div className="fixed flex h-20 w-full items-center justify-between bg-red-600 px-4 text-black">
+    <div className="fixed flex h-[70px] w-full items-center justify-between bg-white px-4 text-black">
       <div>
-        <h1 className="font-signature ml-2 text-5xl">lokesh</h1>
+        <h1 className="my-2 text-3xl font-bold">Lokesh sharma </h1>
       </div>
 
-      <ul className="hidden  md:flex">
+      <ul className="hidden   md:flex ">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="cursor-pointer  px-4 font-medium capitalize text-black
-         decoration-pink-500  decoration-solid decoration-4 duration-200 hover:scale-105 hover:underline"
+            className="   cursor-pointer   px-6  text-2xl 
+             font-bold capitalize text-gray-700 duration-200 hover:scale-105  "
           >
-            <Link to={link} smooth duration={500}>
+            <Link
+              to={link}
+              smooth
+              duration={500}
+              className="inline border-fuchsia-700 hover:border-b-[3px]"
+            >
               {link}
             </Link>
           </li>
