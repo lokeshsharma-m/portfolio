@@ -2,11 +2,11 @@ function ContactMe() {
   return (
     <div
       name="contact"
-      className="from-dpurple to-lpurple h-screen w-full  bg-gradient-to-r text-white"
+      className="h-screen w-full bg-gradient-to-r from-dpurple  to-lpurple text-white sm:overflow-y-auto"
     >
       <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4">
         <div className="pb-8">
-          <p className="drop-shadow-glow inline  text-4xl font-bold">
+          <p className=" inline  text-4xl font-bold md:drop-shadow-glow ">
             Contact Me
           </p>
           <p className="py-6">Submit the form to get in touch with me</p>

@@ -23,23 +23,22 @@ function NavBar() {
   ];
 
   return (
-    <div className="fixed flex h-[70px] w-full items-center justify-between bg-white px-4 text-black">
+    <div className="fixed flex h-20 w-full items-center justify-between bg-white px-4 text-black">
       <div>
         <h1 className="my-2 text-3xl font-bold">Lokesh sharma </h1>
       </div>
 
-      <ul className="hidden   md:flex ">
+      <ul className="hidden md:flex ">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="   cursor-pointer   px-6  text-2xl 
-             font-bold capitalize text-gray-700 duration-200 hover:scale-105  "
+            className="cursor-pointer px-6 text-2xl font-bold capitalize text-gray-700 duration-200 hover:scale-105  "
           >
             <Link
               to={link}
               smooth
               duration={500}
-              className="inline border-fuchsia-700 hover:border-b-[3px]"
+              className="inline border-fuchsia-700 hover:border-b-4"
             >
               {link}
             </Link>
@@ -49,14 +48,14 @@ function NavBar() {
 
       <div
         onClick={() => setNav(!nav)}
-        className="z-10 cursor-pointer pr-4 text-white md:hidden"
+        className="z-10 cursor-pointer pr-4 text-black md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
         <ul
           className="absolute left-0 top-0 flex h-screen w-full flex-col items-center 
-      justify-center bg-gradient-to-b from-black to-gray-500"
+      justify-center bg-gradient-to-r from-dpurple to-lpurple "
         >
           {links.map(({ id, link }) => (
             <li

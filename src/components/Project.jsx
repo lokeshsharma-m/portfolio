@@ -28,12 +28,12 @@ function Project() {
   ];
   return (
     <div
-      className="from-dpurple to-lpurple w-full bg-gradient-to-r text-white md:h-screen"
+      className="w-full bg-gradient-to-r from-dpurple to-lpurple text-white sm:overflow-y-auto md:h-screen"
       name="portfolio"
     >
-      <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4">
+      <div className="mx-auto  flex h-full w-full max-w-screen-lg flex-col justify-center  p-4">
         <div className="pb-8">
-          <p className="drop-shadow-glow inline text-4xl font-bold">
+          <p className="inline  text-4xl font-bold md:drop-shadow-glow">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
